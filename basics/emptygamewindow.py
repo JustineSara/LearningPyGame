@@ -4,7 +4,7 @@ from pygame.locals import *
 
 ## Define globals ##
 
-# zindoz size in pixels
+# window size in pixels
 WINDOW_WIDTH = 400
 WINDOW_HEIGHT = 300
 
