@@ -35,14 +35,17 @@ def main():
                 sys.exit()
             elif event.type == pygame.MOUSEBUTTONUP:
                 if event.button == 3:
-                    background_color, drawing_color = switch_elements(background_color, drawing_color)        
+                    background_color, drawing_color = switch_elements(background_color, drawing_color)
+            elif event.type == pygame.MOUSEMOTION :
+                if event.buttons[0] == 1:
+                    paint_pos.append(event.pos)    
 
 
         # update the view of the game
         
         displaysurf.fill(background_color)
         for p in paint_pos :
-            pygame.draw.circle(displaysurf, drawing_color, p, 1, 0)
+            pygame.draw.circle(displaysurf, drawing_color, p, 2, 0)
 
         pygame.display.update()
 
