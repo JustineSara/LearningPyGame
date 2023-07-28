@@ -13,7 +13,7 @@ def main():
 # main : main function with the game loop
 
     pygame.init()
-    displysurf = pygame.display.set_mode((WINDOW_WIDTH,WINDOW_HEIGHT))
+    displaysurf = pygame.display.set_mode((WINDOW_WIDTH,WINDOW_HEIGHT))
     pygame.display.set_caption('Hello World!')
     # this is the name of the window, typically the name of the game
 
