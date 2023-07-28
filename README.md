@@ -5,7 +5,7 @@ Learning PyGame
 
 The goal of this folder is to code the basics bricks that will allow one to buld a game.
 
-### [empty game window](basics/emptygamewindow.py)
+### [empty game window](./basics/emptygamewindow.py)
 here we generate an empty game window and an empty game loop.
 
 
@@ -16,7 +16,7 @@ Learn to :
 4. exit the game loop and close the game
 
 
-### [print event](basics/printevents.py)
+### [print event](./basics/printevents.py)
 This piece of code prints the event detected by pygame
 
 Can see different types of events :
@@ -33,7 +33,7 @@ Can see different types of events :
 * a key is let up : `<Event(769-KeyUp {'unicode': '', 'key': 1073741903, 'mod': 4096, 'scancode': 79, 'window': None})>`
 * `TextInput` seems to be an event to help with typing as it happens when a text key is used and appears again if the key is kept down (an arrow key does not generate such events for example) : `<Event(771-TextInput {'text': 'j', 'window': None})>`
 
-### [draw](basics/drawing.py)
+### [draw](./basics/drawing.py)
 Here we learn to draw simple shapes on the game window
 
 To practice and have fun, I added a cat's head (maybe)
@@ -42,3 +42,8 @@ To practice and have fun, I added a cat's head (maybe)
 ## beyond basics
 
 In this folder, I learn to do simple things using the basics. The goal is to use only two or three to do something simple but fun
+
+### [Black and White Paint](./beyondbasics/BlackAndWhitePaint.py)
+
+This game is to paint things in white or black.
+We first implemented a small feature to exchange the black and white color
