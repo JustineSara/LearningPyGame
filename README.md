@@ -47,3 +47,14 @@ In this folder, I learn to do simple things using the basics. The goal is to use
 
 This game is to paint things in white or black.
 We first implemented a small feature to exchange the black and white color
+Then we detect the MouseMove events and check if the left mouse button is down, we add that to a list of points we will then draw
+
+Potential addition :
+* more colors
+* change the size with the wheel of the mouse
+    * small addition if ok to change all the points' size at once
+    * more work if change only the new points (different structure of the picture saved needed)
+* add a timer that erase/forget the points drawn (need to handle time --> new 'game'?)
+
+Remark :
+* if we were not switching colors, we could probably draw the points directly on the surface and not have to save it. Might also be faster to not redraw the whole picture everytime!
